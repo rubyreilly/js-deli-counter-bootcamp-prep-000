@@ -3,8 +3,7 @@ var katzDeliLine= [];
 function takeANumber(katzDeliLine,name){
   if (katzDeliLine.length===0){
     katzDeliLine.push(name);
-    var num= 1;
-    return (`Welcome, ${name}. You are number ${num} in line.`);
+    return (`Welcome, ${name}. You are number 1 in line.`);
   }
   else{
     katzDeliLine.push(name);
