@@ -1,7 +1,7 @@
 var katzDeliLine= [];
 
 function takeANumber(katzDeliLine){
-  katzDeliLine.push(katzDeliLine.length);
+  katzDeliLine.push(katzDeliLine.length+1);
   return (`You are number ${katzDeliLine.length} in line.`);
 }
 
